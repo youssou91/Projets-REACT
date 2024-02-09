@@ -2,6 +2,9 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom';
 const Navigation = () => {
+    const dateCourante: Date = new Date();
+    const moisCourant: Number = dateCourante.getMonth()+1;
+    const anneeCourante = dateCourante.getFullYear()+"-"+moisCourant;
     return (
         <div className='sidebar'>
             <div className='id'>
@@ -66,7 +69,7 @@ const Navigation = () => {
                     
                 </ul>
                 <div className='signature'>
-                    <p>© fromYussuf - 2022</p>
+                    <p>©fromYussuf - {anneeCourante}</p>
                 </div>
             </div>
 
