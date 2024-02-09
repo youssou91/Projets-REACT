@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import {NavLink} from 'react-router-dom';
-const anneeCourante = new Date();
 const Navigation = () => {
     const dateCourante: Date = new Date();
     const moisCourant: Number = dateCourante.getMonth()+1;
