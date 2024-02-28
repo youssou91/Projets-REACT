@@ -8,7 +8,7 @@ import Knowledges from './pages/Knowledges';
 
 function App() {
   return (
-    <BrowserRouter> 
+    <BrowserRouter>
       <Routes>
         <Route path="/" exact element={<Home/>}/>
         <Route path="/contact" exact element={<Contact/>}/>
