@@ -2,9 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './styles/styles.scss';
+import { BrowserRouter as Router } from 'react-router-dom';
+
 ReactDOM.render(
-  <React.StrictMode>
+  <Router basename="/portfolio-yussuf">
     <App />
-  </React.StrictMode>,
+  </Router>,
   document.getElementById('root')
 );
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
