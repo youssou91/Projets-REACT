@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/github.io/portfolio-yussuf/static/css/main.924b6f9f.css",
+    "main.js": "/github.io/portfolio-yussuf/static/js/main.922386f7.js",
+    "static/media/Yussuf.jpeg": "/github.io/portfolio-yussuf/static/media/Yussuf.52b0a1f28e09ccc633a3.jpeg",
+    "static/media/map.jpg": "/github.io/portfolio-yussuf/static/media/map.3e5949c9b6f7cd03bd31.jpg",
+    "index.html": "/github.io/portfolio-yussuf/index.html",
+    "static/media/shape.svg": "/github.io/portfolio-yussuf/static/media/shape.304b3ad310f9f544faf4.svg",
+    "main.924b6f9f.css.map": "/github.io/portfolio-yussuf/static/css/main.924b6f9f.css.map",
+    "main.922386f7.js.map": "/github.io/portfolio-yussuf/static/js/main.922386f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.924b6f9f.css",
+    "static/js/main.922386f7.js"
+  ]
+}
